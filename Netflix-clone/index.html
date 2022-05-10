@@ -1,0 +1,167 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="modal-overlay">
+            <div id="modal">
+                <div id="modal-content">
+                    <img src="dr-strange.jpg">
+                    <div class="modal-button">
+                        <div class="play-button-modal"><div class="text"> &#8227; </div> Spela upp</div>
+                        <div class="plus-button-modal"></div>
+                        <div class="thumb-button-modal"></div>
+                    </div>
+                    <div class="modal-text"> 
+                        <div>
+                            <div class="modal-info"><p style="color: green;">Ny </p><p> 2016</p><div class="modal-pg-rating">13+</div><p> 1h 55m</p></div>
+                            <div>Neurokirurge dr Strange mister händerna i en bilolycka.
+                            I sökandet efter ett botemedel finner han kraftfull magi i frontlinjen i en kamp mot osedda krafter som försöker förgöra vår verklighet
+                            </div>
+                        </div>
+                        <ul class="modal-list">
+                            <li>Medverkare: </li>
+                            <li>Genrer: </li>
+                            <li>Den här filmen är: </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-logo active">Smeckflix</li>
+                <li>Hem</li>
+                <li>Smeck-serier</li>
+                <li>Smeck-filmer</li>
+                <li>Nytt och populärt smeck</li>
+                <li>Min smeck lista</li>
+                <li>Ljud, undertexter och smeck</li>
+            </ul>
+        </div>
+        <div id="slide-show-div">
+            <div class="top-buttons">            
+                <div class="play-button"><div class="text"> &#8227; </div> Spela upp</div>
+                <div class="info-button"><div class="text"> &#8505; </div> Mer info</div>
+            </div>
+            <img id="banner-img" src="hero-img.jpg">
+        </div>
+        <div class="row">
+            <div class="header">
+            <h3 class="title">Populärt just nu</h3>
+            <div class="progress-bar"></div>
+            </div>
+            <div class="container">
+            <button class="handle left-handle">
+                <div class="text">&#8249;</div>
+            </button>
+            <div class="slider">
+                <img id="dr-strange" src="dr-strange.jpg">
+                <img id="project-x" src="project-x.jpg">
+                <img src="django-unchained.jpg">
+                <img src="dr-strange-multiverse-of-madness.png">
+                <img src="Inception.jpg">
+                <img src="interstellar.jpg">
+                <img src="the-greatest-showman.jpg">
+                <img src="heart-of-the-sea.jpg">
+                <img src="brokeback-mountain.jpg">
+                <img src="great-gatsby.jpg">
+                <img src="no-country-for-old-men.jpg">
+                <img src="annihilation.png">
+            </div>
+            <button class="handle right-handle">
+                <div class="text">&#8250;</div>
+            </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="header">
+            <h3 class="title">Filmer du inte har sett</h3>
+            <div class="progress-bar"></div>
+            </div>
+            <div class="container">
+            <button class="handle left-handle">
+                <div class="text">&#8249;</div>
+            </button>
+            <div class="slider">
+                <img src="shaun-of-the-dead.jpg">
+                <img src="hotfuzz.jpg">
+                <img src="the-worlds-end.jpg">
+                <img src="hacksaw-ridge.jpg">
+                <img src="1917.jpg">
+                <img src="avatar.jpg">
+                <img src="polar.jpg">
+                <img src="https://via.placeholder.com/280/?text=8">
+                <img src="https://via.placeholder.com/250/?text=9">
+                <img src="https://via.placeholder.com/260/?text=10">
+                <img src="https://via.placeholder.com/270/?text=11">
+                <img src="https://via.placeholder.com/280/?text=12">
+            </div>
+            <button class="handle right-handle">
+                <div class="text">&#8250;</div>
+            </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="header">
+            <h3 class="title">Filmer du inte vill se igen</h3>
+            <div class="progress-bar"></div>
+            </div>
+            <div class="container">
+            <button class="handle left-handle">
+                <div class="text">&#8249;</div>
+            </button>
+            <div class="slider">
+                <img src="american-psycho2.jpg">
+                <img src="morbius.jpg">
+                <img src="the-nun.jpg">
+                <img src="star-wars-the-force-awakens.png">
+                <img src="starwars-the-last-jedi.jpg">
+                <img src="Star-Wars-The-rise-of-Skywalker.jpeg">
+                <img src="sharknado.jpg">
+                <img src="sharkboy-lavagirl.jpg">
+                <img src="https://via.placeholder.com/250/?text=9">
+                <img src="https://via.placeholder.com/260/?text=10">
+                <img src="https://via.placeholder.com/270/?text=11">
+                <img src="https://via.placeholder.com/280/?text=12">
+            </div>
+            <button class="handle right-handle">
+                <div class="text">&#8250;</div>
+            </button>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>Syntolk</li>
+                <li>Investerarrelationer</li>
+                <li>Juridisk information</li>
+                <li class="service-kod">Servicekod</li>
+            </ul>
+            <ul>
+                <li>Hjälpcenter</li>
+                <li>Jobba hos oss</li>
+                <li>Cookie-inställningar</li>
+            </ul>
+            <ul>
+                <li>Presentkort</li>
+                <li>Användarvillkor</li>
+                <li>Företagsinformation</li>
+            </ul>
+            <ul>
+                <li>Mediecenter</li>
+                <li>Sekretess</li>
+                <li>Kontakta oss</li>
+            </ul>
+        </div>
+    </body>
+    </html>
